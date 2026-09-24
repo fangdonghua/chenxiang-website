@@ -24,7 +24,7 @@
     "type:check:client": "tsc --noEmit --project tsconfig.app.json",
     "type:check:server": "tsc --noEmit --project tsconfig.node.json",
     "lint": "node ./scripts/lint.js",
-    "precommit": "node scripts/hooks/run-precommit.js",
+    "precommit": "node scripts/hooks/run-precommit.js"
       },
   "dependencies": {
     "@lark-apaas/fullstack-nestjs-core": "^1.1.64",
